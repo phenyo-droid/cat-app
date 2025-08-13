@@ -7,53 +7,63 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
+    <header>
       <h1>CatPhotoApp</h1>
+    </header>
 
-      <section>
-        <h2>Cat Photos</h2>
-        <p>Everyone loves 
+    <main>
+      <!-- Cat Photos Section -->
+      <section aria-labelledby="cat-photos">
+        <h2 id="cat-photos">Cat Photos</h2>
+        <p>
+          Everyone loves 
           <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">
-            cute cats
-          </a> 
-          online!
+            cute cats running in the field
+          </a> online!
         </p>
-        <p>See more 
-          <a href="https://freecatphotoapp.com" target="_blank">
-            cat photos
-          </a> 
-          in our gallery.
+        <p>
+          See more in our 
+          <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer">
+            full cat photo gallery
+          </a>.
         </p>
-        <a href="https://freecatphotoapp.com">
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        <a href="https://freecatphotoapp.com" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" 
+               alt="A cute orange cat lying on its back.">
         </a>
       </section>
 
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>catnip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
+      <!-- Cat Lists Section -->
+      <section aria-labelledby="cat-lists">
+        <h2 id="cat-lists">Cat Lists</h2>
 
-        <figure class="lasagna-picture">
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>
-        </figure>
+        <section aria-labelledby="things-cats-love">
+          <h3 id="things-cats-love">Things Cats Love</h3>
+          <ul>
+            <li>Catnip</li>
+            <li>Laser pointers</li>
+            <li>Lasagna</li>
+          </ul>
+          <figure class="lasagna-picture">
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" 
+                 alt="A slice of lasagna on a plate.">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>
+          </figure>
+        </section>
 
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-
-        <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-        </figure>
+        <section aria-labelledby="things-cats-hate">
+          <h3 id="things-cats-hate">Top 3 Things Cats Hate</h3>
+          <ol>
+            <li>Flea treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+          </ol>
+          <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" 
+                 alt="Five cats looking around a field.">
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+          </figure>
+        </section>
       </section>
     </main>
 
